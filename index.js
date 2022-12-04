@@ -55,8 +55,12 @@ const questions = [
   },
 ];
 
-function generateReadMe() {
-  fs
+function generateReadMe(layout) {
+  fs.writeFile('Hello.md', layout, 'utf8', (err) => {
+    if (err) {
+      console.log(err)
+    }
+  })
 }
 
 function init() {
@@ -65,8 +69,8 @@ function init() {
   .then((data) => {
     // console.log(data) 
     const layout = GenerateMD(data)
-
     console.log(layout)
+    generateReadMe(layout)
   })
   .catch((error) => {
     console.log(error)
