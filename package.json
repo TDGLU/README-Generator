@@ -1,15 +1,22 @@
 {
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  },
   "name": "c9-readmegenerator",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDGLU/README-Generator.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/TDGLU/README-Generator/issues"
+  },
+  "homepage": "https://github.com/TDGLU/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
