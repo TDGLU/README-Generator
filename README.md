@@ -9,6 +9,7 @@ README Generator creates a nice readme based on the data the users give it, and 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+[Video Demo](https://drive.google.com/file/d/11wJtdD_xBNjMJZjj9JB_FjZMzItHiuMG/view)
 
 ## Table Of Contents
 - [Usage](#usage)
@@ -25,15 +26,6 @@ This app easily creates a readme file from user data.
 
 ## Install
 To install, run "npm i" to install the needed packages to run this application.
-
-
-## Contributing
-NA
-
-
-## Tests
-NA
-
 
 ## Questions
 _Reach Out!_
