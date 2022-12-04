@@ -1,5 +1,9 @@
 const inquirer = require("inquirer");  
+const fs = require('fs')
 
+const GenerateMD = require("./ReadmeLayout.js")
+
+// These are the questions 
 const questions = [
   // Title
   {
@@ -37,14 +41,32 @@ const questions = [
     message: "How could users test your application?",
     name: "test"
   },
+  // GitHub Username 
+  {
+    type: "input",
+    message: "Enter your GitHub username:",
+    name: "username"
+  },
+  // Email Address 
+  {
+    type: "input",
+    message: "Enter your email address:",
+    name: "email"
+  },
 ];
+
+function generateReadMe() {
+  fs
+}
 
 function init() {
   inquirer
   .prompt(questions)
   .then((data) => {
-    // console.log("The user's title is " + data.title)
-    console.log(data)
+    // console.log(data) 
+    const layout = GenerateMD(data)
+
+    console.log(layout)
   })
   .catch((error) => {
     console.log(error)
