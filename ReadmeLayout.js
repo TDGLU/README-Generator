@@ -7,8 +7,8 @@ ${data.description}
 ## Table Of Contents
 - [Usage](#usage)
 - [Install](#install)
-- [Contribute](#contributions)
-- [Testing](#tests)
+- [Contributions](#contributions)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Install
